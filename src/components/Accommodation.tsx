@@ -1,6 +1,4 @@
 import { Bed, Bath, Home, Flame, Leaf } from "lucide-react";
-import fincaNight from "@/assets/finca-night.jpg";
-import diningImage from "@/assets/dining.jpg";
 
 const amenities = [
   { icon: Home, text: "Two charming cottages" },
@@ -8,6 +6,33 @@ const amenities = [
   { icon: Bath, text: "4 full bathrooms" },
   { icon: Flame, text: "BBQ & outdoor gazebo" },
   { icon: Leaf, text: "Organic garden" },
+];
+
+const galleryImages = [
+  {
+    src: "https://static.wixstatic.com/media/322ca7_c8fc21865ab747b38889764dc4758f72~mv2.jpg/v1/fill/w_400,h_250,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2022_40_56_200c89f4.jpg",
+    alt: "Estate exterior view",
+  },
+  {
+    src: "https://static.wixstatic.com/media/322ca7_89a3e1eb087d44e690d52159aee7722c~mv2.jpg/v1/fill/w_400,h_250,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2023_07_09_5122dc5f.jpg",
+    alt: "Property grounds",
+  },
+  {
+    src: "https://static.wixstatic.com/media/322ca7_96cec5a51b4349e490eb3fb1370e6e3f~mv2.jpg/v1/fill/w_400,h_250,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2023_15_47_0da425cf.jpg",
+    alt: "Cottage bedroom",
+  },
+  {
+    src: "https://static.wixstatic.com/media/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg/v1/fill/w_400,h_250,al_c,q_80,enc_avif,quality_auto/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg",
+    alt: "Living space",
+  },
+  {
+    src: "https://static.wixstatic.com/media/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg/v1/fill/w_400,h_250,al_c,q_80,enc_avif,quality_auto/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg",
+    alt: "Interior view",
+  },
+  {
+    src: "https://static.wixstatic.com/media/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg/v1/fill/w_400,h_250,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2023_26_45_9d665a76.jpg",
+    alt: "Outdoor area",
+  },
 ];
 
 const Accommodation = () => {
@@ -28,36 +53,20 @@ const Accommodation = () => {
         </div>
 
         {/* Images Grid */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
-          <div className="relative group overflow-hidden rounded-2xl">
-            <img
-              src={fincaNight}
-              alt="Finca Invernalia estate at night under the stars"
-              className="w-full h-80 lg:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6">
-              <h3 className="font-serif text-2xl mb-2">The Estate</h3>
-              <p className="text-muted-foreground text-sm">
-                Stone cottages under the Milky Way, 1300m altitude
-              </p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
+          {galleryImages.map((image, index) => (
+            <div
+              key={index}
+              className="relative group overflow-hidden rounded-xl aspect-video"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
-          </div>
-
-          <div className="relative group overflow-hidden rounded-2xl">
-            <img
-              src={diningImage}
-              alt="Outdoor dining with paella and sangria at sunset"
-              className="w-full h-80 lg:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6">
-              <h3 className="font-serif text-2xl mb-2">Al Fresco Dining</h3>
-              <p className="text-muted-foreground text-sm">
-                Authentic paella, sangria, and organic garden produce
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
 
         {/* Amenities */}

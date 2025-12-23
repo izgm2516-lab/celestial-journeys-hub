@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import EclipseCountdown from "@/components/EclipseCountdown";
 import Experience from "@/components/Experience";
 import Accommodation from "@/components/Accommodation";
 import Observatory from "@/components/Observatory";
@@ -27,6 +28,7 @@ const Index = () => {
         <Header />
         <main>
           <Hero />
+          <EclipseCountdown />
           <Experience />
           <Accommodation />
           <Observatory />

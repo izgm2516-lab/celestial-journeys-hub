@@ -1,16 +1,19 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Header = () => {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#experience", label: "The Experience" },
-    { href: "#accommodation", label: "Accommodation" },
-    { href: "#observatory", label: "Observatory" },
-    { href: "#contact", label: "Contact" },
+    { href: "#home", label: t("nav.home") },
+    { href: "#experience", label: t("nav.experience") },
+    { href: "#accommodation", label: t("nav.accommodation") },
+    { href: "#observatory", label: t("nav.observatory") },
+    { href: "#contact", label: t("nav.contact") },
   ];
 
   return (
@@ -37,19 +40,23 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
+            <LanguageSwitcher />
             <Button variant="hero" size="sm">
-              Reserve Now
+              {t("nav.reserve")}
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-foreground"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSwitcher />
+            <button
+              className="text-foreground"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </nav>
 
         {/* Mobile Navigation */}
@@ -67,7 +74,7 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="hero" className="mt-4">
-                Reserve Now
+                {t("nav.reserve")}
               </Button>
             </div>
           </div>

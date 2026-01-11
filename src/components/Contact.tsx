@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { Mail, Instagram, Youtube, MapPin, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="py-24 hero-gradient relative overflow-hidden">
       {/* Background decoration */}
@@ -12,13 +15,11 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Section Header */}
           <h2 className="font-serif text-4xl md:text-5xl mb-6">
-            Reserve Your <span className="text-gradient-corona">Eclipse</span>{" "}
-            Experience
+            {t("contact.title")} <span className="text-gradient-corona">{t("contact.titleHighlight")}</span>{" "}
+            {t("contact.titleEnd")}
           </h2>
           <p className="text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-            Reserve the entire property exclusively for your 12-person group, or
-            reserve your place individually. Contact Carlos Espada to begin your
-            celestial journey.
+            {t("contact.description")}
           </p>
 
           {/* Contact Options */}
@@ -31,7 +32,7 @@ const Contact = () => {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                 <Mail className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-medium mb-1">Email</h3>
+              <h3 className="font-medium mb-1">{t("contact.email")}</h3>
               <p className="text-muted-foreground text-sm">
                 carlos_espada@yahoo.com
               </p>
@@ -47,7 +48,7 @@ const Contact = () => {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                 <Instagram className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-medium mb-1">Instagram</h3>
+              <h3 className="font-medium mb-1">{t("contact.instagram")}</h3>
               <p className="text-muted-foreground text-sm">@carlosespadaapo</p>
             </a>
 
@@ -61,7 +62,7 @@ const Contact = () => {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                 <Youtube className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-medium mb-1">YouTube</h3>
+              <h3 className="font-medium mb-1">{t("contact.youtube")}</h3>
               <p className="text-muted-foreground text-sm">Carlos Espada</p>
             </a>
           </div>
@@ -83,7 +84,7 @@ const Contact = () => {
               </div>
             </div>
             <Button variant="glow" size="xl" asChild>
-              <a href="mailto:carlos_espada@yahoo.com">Contact to Reserve</a>
+              <a href="mailto:carlos_espada@yahoo.com">{t("contact.reserveButton")}</a>
             </Button>
           </div>
         </div>

@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const EclipseCountdown = () => {
+  const { t } = useTranslation();
   const eclipseDate = new Date('2026-08-12T00:00:00');
   
   const calculateTimeLeft = () => {
@@ -26,10 +28,10 @@ const EclipseCountdown = () => {
   }, []);
 
   const timeUnits = [
-    { label: 'Days', value: timeLeft.days },
-    { label: 'Hours', value: timeLeft.hours },
-    { label: 'Minutes', value: timeLeft.minutes },
-    { label: 'Seconds', value: timeLeft.seconds },
+    { label: t('countdown.days'), value: timeLeft.days },
+    { label: t('countdown.hours'), value: timeLeft.hours },
+    { label: t('countdown.minutes'), value: timeLeft.minutes },
+    { label: t('countdown.seconds'), value: timeLeft.seconds },
   ];
 
   return (
@@ -42,10 +44,10 @@ const EclipseCountdown = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-            Total Solar Eclipse
+            {t('countdown.title')}
           </h2>
           <p className="text-xl text-muted-foreground">
-            August 12, 2026 • Finca Invernalia, Spain
+            {t('countdown.subtitle')}
           </p>
         </div>
 
@@ -66,8 +68,7 @@ const EclipseCountdown = () => {
         </div>
 
         <p className="text-center mt-12 text-muted-foreground max-w-2xl mx-auto">
-          Be among the few to witness this celestial phenomenon from our privileged location 
-          with clear skies and professional astronomical equipment.
+          {t('countdown.description')}
         </p>
       </div>
     </section>

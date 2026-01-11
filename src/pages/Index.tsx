@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Accommodation from "@/components/Accommodation";
 import Observatory from "@/components/Observatory";
 import Contact from "@/components/Contact";
+import InquiryForm from "@/components/InquiryForm";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -33,6 +34,7 @@ const Index = () => {
           <Accommodation />
           <Observatory />
           <Contact />
+          <InquiryForm />
         </main>
         <Footer />
       </div>

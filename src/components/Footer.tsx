@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { Instagram, Youtube, Mail } from "lucide-react";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="py-12 border-t border-border/50 bg-background">
       <div className="container mx-auto px-6">
@@ -46,7 +49,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Finca Invernalia. All rights reserved.
+            © {new Date().getFullYear()} Finca Invernalia. {t("footer.rights")}
           </p>
         </div>
 
@@ -58,7 +61,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
           >
-            Eclipse Path Map
+            {t("footer.eclipseMap")}
           </a>
           <a
             href="http://www.lightpollutionmap.com/"
@@ -66,7 +69,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
           >
-            Light Pollution Map
+            {t("footer.lightPollution")}
           </a>
           <a
             href="https://www.google.com/maps/search/Anquela+del+Pedregal"
@@ -74,7 +77,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
           >
-            Google Maps
+            {t("footer.location")}
           </a>
         </div>
       </div>

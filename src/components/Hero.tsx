@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { ChevronDown, Calendar, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="home"
@@ -36,10 +39,9 @@ const Hero = () => {
             className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium mb-6 leading-tight animate-fade-up"
             style={{ animationDelay: "0.1s" }}
           >
-            Live the{" "}
-            <span className="text-gradient-corona glow-text">Total Eclipse</span>
+            <span className="text-gradient-corona">{t("hero.title")}</span>
             <br />
-            Experience
+            <span className="text-foreground">{t("hero.subtitle")}</span>
           </h1>
 
           {/* Subheading */}
@@ -47,9 +49,7 @@ const Hero = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-            Imagine experiencing the next total solar eclipse in one of the best
-            locations on the planet, in Spain, 100% total eclipse, on a private
-            estate at 1300m altitude.
+            {t("hero.description")}
           </p>
 
           {/* Location */}
@@ -66,10 +66,10 @@ const Hero = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up"
             style={{ animationDelay: "0.4s" }}
           >
-            <Button variant="glow" size="xl">
-              Reserve Your Experience
+            <Button variant="glow" size="xl" asChild>
+              <a href="#contact">{t("hero.cta")}</a>
             </Button>
-            <Button variant="heroOutline" size="xl">
+            <Button variant="heroOutline" size="xl" asChild>
               <a
                 href="https://www.google.com/maps/search/Anquela+del+Pedregal"
                 target="_blank"

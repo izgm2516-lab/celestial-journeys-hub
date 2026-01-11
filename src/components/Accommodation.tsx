@@ -53,6 +53,34 @@ const Accommodation = () => {
     },
   ];
 
+   const additionalImages = [
+    { 
+      src: "https://static.wixstatic.com/media/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg", 
+      alt: "Telescope Close-up",
+      type: "image" as const
+    },
+    { 
+      src: "https://static.wixstatic.com/media/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg", 
+      alt: "Night Session",
+      type: "image" as const
+    },
+    { 
+      src: "https://static.wixstatic.com/media/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg", 
+      alt: "Observatory at Dusk",
+      type: "image" as const
+    },
+    { 
+      src: "https://static.wixstatic.com/media/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg", 
+      alt: "Star Trail",
+      type: "image" as const
+    },
+    { 
+      src: "https://static.wixstatic.com/media/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg", 
+      alt: "Milky Way View",
+      type: "image" as const
+    },
+  ];
+
   return (
     <section id="accommodation" className="py-24 hero-gradient relative overflow-hidden">
       <div className="absolute inset-0 star-bg opacity-5" />
@@ -70,12 +98,18 @@ const Accommodation = () => {
         {/* Lightbox Gallery */}
         <ImageLightbox images={galleryImages} className="mb-16" />
 
+        {/* Additional Images */}
+        <ImageLightbox images={additionalImages} />
+
         {/* Description */}
         <div className="max-w-3xl mx-auto text-center mb-12">
           <p className="text-lg text-muted-foreground leading-relaxed">
             {t("accommodation.description")}
           </p>
         </div>
+
+        {/* Additional Images */}
+          <ImageLightbox images={additionalImages} />
 
         {/* Amenities */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">

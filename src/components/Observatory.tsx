@@ -68,33 +68,7 @@ const Observatory = () => {
     },
   ];
 
-  const additionalImages = [
-    { 
-      src: "https://static.wixstatic.com/media/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg", 
-      alt: "Telescope Close-up",
-      type: "image" as const
-    },
-    { 
-      src: "https://static.wixstatic.com/media/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg", 
-      alt: "Night Session",
-      type: "image" as const
-    },
-    { 
-      src: "https://static.wixstatic.com/media/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg", 
-      alt: "Observatory at Dusk",
-      type: "image" as const
-    },
-    { 
-      src: "https://static.wixstatic.com/media/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg", 
-      alt: "Star Trail",
-      type: "image" as const
-    },
-    { 
-      src: "https://static.wixstatic.com/media/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg", 
-      alt: "Milky Way View",
-      type: "image" as const
-    },
-  ];
+ 
 
   return (
     <section id="observatory" className="py-24 section-gradient relative overflow-hidden">
@@ -156,8 +130,7 @@ const Observatory = () => {
         <h3 className="text-2xl font-serif text-center mb-8">{t("observatory.astroGallery")}</h3>
         <ImageLightbox images={astroImages} className="mb-12" />
 
-        {/* Additional Images */}
-        <ImageLightbox images={additionalImages} />
+        
       </div>
     </section>
   );

@@ -41,9 +41,12 @@ const Header = () => {
               </a>
             ))}
             <LanguageSwitcher />
-            <Button variant="hero" size="sm">
-              {t("nav.reserve")}
-            </Button>
+            <a href="#form-reserva">
+              <Button variant="hero" size="sm">
+                {t("nav.reserve")}
+              </Button>
+            </a>
+
           </div>
 
           {/* Mobile Menu Button */}

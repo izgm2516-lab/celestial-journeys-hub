@@ -41,7 +41,7 @@ const Header = () => {
               </a>
             ))}
             <LanguageSwitcher />
-            <a href="#form-reserva">
+            <a href="#InquiryForm">
               <Button variant="hero" size="sm">
                 {t("nav.reserve")}
               </Button>

@@ -60,11 +60,6 @@ const Accommodation = () => {
       type: "image" as const
     },
     { 
-      src: "https://static.wixstatic.com/media/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_4458fc6e4b824cc7a6da3fe66eabb8ed~mv2.jpg", 
-      alt: "Night Session",
-      type: "image" as const
-    },
-    { 
       src: "https://static.wixstatic.com/media/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg", 
       alt: "Observatory at Dusk",
       type: "image" as const

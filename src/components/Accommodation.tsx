@@ -107,10 +107,7 @@ const Accommodation = () => {
             {t("accommodation.description")}
           </p>
         </div>
-
-        {/* Additional Images */}
-          <ImageLightbox images={additionalImages} />
-
+        
         {/* Amenities */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {amenityKeys.map((key, index) => {

@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
-import { Bed, Bath, Utensils, Leaf, Wifi, Car, Accessibility } from "lucide-react";
+import { Bed, Bath, Utensils, Leaf, Wifi, Accessibility } from "lucide-react";
 import ImageLightbox from "./ImageLightbox";
 
 const Accommodation = () => {
   const { t } = useTranslation();
 
-  const amenityIcons = [Bed, Bath, Utensils, Leaf, Wifi, Car, Accessibility];
-  const amenityKeys = ["bedrooms", "bathrooms", "meals", "organic", "wifi", "parking", "wheelchair"] as const;
+  const amenityIcons = [Bed, Bath, Utensils, Leaf, Wifi, Accessibility];
+  const amenityKeys = ["bedrooms", "bathrooms", "meals", "organic", "wifi", "wheelchair"] as const;
 
   const galleryImages = [
     { 

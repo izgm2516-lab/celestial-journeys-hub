@@ -91,21 +91,20 @@ const Accommodation = () => {
         </div>
 
         {/* Lightbox Gallery */}
-        <ImageLightbox images={galleryImages} className="mb-16" />
+        <ImageLightbox images={galleryImages} className="mb-8" />
 
         {/* Additional Images */}
-        <ImageLightbox images={additionalImages} />
-
+        <ImageLightbox images={additionalImages} className="mb-12" />
 
         {/* Description */}
-        <div className="max-w-3xl mx-auto text-center mb-12">
+        <div className="max-w-3xl mx-auto text-center mb-8">
           <p className="text-lg text-muted-foreground leading-relaxed">
             {t("accommodation.description")}
           </p>
         </div>
         
         {/* Amenities */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
           {amenityKeys.map((key, index) => {
             const Icon = amenityIcons[index];
             return (

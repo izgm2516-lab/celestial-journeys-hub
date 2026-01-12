@@ -64,7 +64,7 @@ const InquiryForm = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-b from-card to-background relative overflow-hidden">
+    <section id="inquiry-form" className="py-20 bg-gradient-to-b from-card to-background relative overflow-hidden">
       <div className="absolute inset-0 star-bg opacity-5" />
       
       <div className="container mx-auto px-6 relative z-10">

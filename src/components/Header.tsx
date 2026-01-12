@@ -41,7 +41,7 @@ const Header = () => {
               </a>
             ))}
             <LanguageSwitcher />
-            <a href="#InquiryForm">
+            <a href="#inquiry-form">
               <Button variant="hero" size="sm">
                 {t("nav.reserve")}
               </Button>
@@ -76,9 +76,11 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="hero" className="mt-4">
-                {t("nav.reserve")}
-              </Button>
+              <a href="#inquiry-form" onClick={() => setIsOpen(false)}>
+                <Button variant="hero" className="mt-4 w-full">
+                  {t("nav.reserve")}
+                </Button>
+              </a>
             </div>
           </div>
         )}

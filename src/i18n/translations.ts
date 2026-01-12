@@ -51,13 +51,15 @@ export const translations = {
         title: "Accommodation",
         subtitle: "Authentic Spanish country living",
         description: "A country estate with two charming cottages, eight double or triple bedrooms, four full bathrooms, living rooms, kitchens, and a fantastic outdoor gazebo next to the barbecue area.",
+        wheelchair: "The entire property is wheelchair accessible",
         amenities: {
           bedrooms: "8 double/triple bedrooms",
           bathrooms: "4 full bathrooms",
           meals: "All meals included",
           organic: "Organic garden produce",
           wifi: "Free WiFi",
-          parking: "Private parking"
+          parking: "Private parking",
+          wheelchair: "Wheelchair accessible"
         }
       },
       observatory: {
@@ -166,13 +168,15 @@ export const translations = {
         title: "Alojamiento",
         subtitle: "Auténtica vida rural española",
         description: "Una finca con dos encantadoras casas rurales, ocho habitaciones dobles o triples, cuatro baños completos, salones, cocinas y un fantástico cenador exterior junto a la zona de barbacoa.",
+        wheelchair: "Toda la propiedad es accesible en silla de ruedas",
         amenities: {
           bedrooms: "8 habitaciones dobles/triples",
           bathrooms: "4 baños completos",
           meals: "Todas las comidas incluidas",
           organic: "Productos del huerto ecológico",
           wifi: "WiFi gratuito",
-          parking: "Aparcamiento privado"
+          parking: "Aparcamiento privado",
+          wheelchair: "Accesible en silla de ruedas"
         }
       },
       observatory: {
@@ -281,13 +285,15 @@ export const translations = {
         title: "Hébergement",
         subtitle: "Vie rurale espagnole authentique",
         description: "Un domaine avec deux charmants gîtes, huit chambres doubles ou triples, quatre salles de bains complètes, salons, cuisines et un fantastique belvédère extérieur à côté du barbecue.",
+        wheelchair: "L'ensemble de la propriété est accessible en fauteuil roulant",
         amenities: {
           bedrooms: "8 chambres doubles/triples",
           bathrooms: "4 salles de bains complètes",
           meals: "Tous les repas inclus",
           organic: "Produits du jardin bio",
           wifi: "WiFi gratuit",
-          parking: "Parking privé"
+          parking: "Parking privé",
+          wheelchair: "Accessible en fauteuil roulant"
         }
       },
       observatory: {

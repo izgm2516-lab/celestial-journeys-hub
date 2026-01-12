@@ -75,7 +75,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View on Map
+                View the estate
               </a>
             </Button>
           </div>

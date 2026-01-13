@@ -64,10 +64,10 @@ const Hero = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up"
             style={{ animationDelay: "0.4s" }}
           >
-            <Button variant="glow" size="xl" asChild>
+            <Button variant="glow" size="xl" className="min-w-[200px]" asChild>
               <a href="#contact">{t("hero.cta")}</a>
             </Button>
-            <Button variant="heroOutline" size="xl" asChild>
+            <Button variant="heroOutline" size="xl" className="min-w-[200px]" asChild>
               <a
                 href="https://youtu.be/BkM79t_KfOA"
                 target="_blank"

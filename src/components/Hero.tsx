@@ -20,8 +20,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
       </div>
 
-      {/* Star overlay */}
-      <div className="absolute inset-0 star-bg opacity-30" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center pt-20">
@@ -71,11 +69,11 @@ const Hero = () => {
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a
-                href="https://www.google.com/maps/search/Anquela+del+Pedregal"
+                href="https://youtu.be/BkM79t_KfOA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View the estate
+                See the estate
               </a>
             </Button>
           </div>

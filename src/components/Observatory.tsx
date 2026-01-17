@@ -42,8 +42,8 @@ const Observatory = () => {
       videoUrl: "https://www.dropbox.com/scl/fi/6rdq2ujdvihksp39wdfz4/WhatsApp-Video-2025-10-24-at-00.17.57_431fe808.mp4?rlkey=tm5srstvzt439ccwqjci8ebhy&st=x8inlme6&dl=0"
     },
     { 
-      src: "https://static.wixstatic.com/media/322ca7_8a4d8d70e96c43f2adc295bc5fd64a0e~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-24%20at%2000_22_46_7dafaa8a.jpg", 
-      alt: "Observatory Equipment",
+      src: "https://static.wixstatic.com/media/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg", 
+      alt: "Nebula Capture",
       type: "image" as const
     },
     { 
@@ -57,13 +57,13 @@ const Observatory = () => {
       type: "image" as const
     },
     { 
-      src: "https://static.wixstatic.com/media/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg", 
-      alt: "Nebula Capture",
+      src: "https://static.wixstatic.com/media/322ca7_8a4d8d70e96c43f2adc295bc5fd64a0e~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-24%20at%2000_22_46_7dafaa8a.jpg", 
+      alt: "Observatory Equipment",
       type: "image" as const
     },
     { 
-      src: "https://static.wixstatic.com/media/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg", 
-      alt: "Galaxy Image",
+      src: "/M42.jpg", 
+      alt: "Orion Homemade Picture",
       type: "image" as const
     },
     { 
@@ -81,6 +81,12 @@ const Observatory = () => {
       alt: "Celestial Photography",
       type: "image" as const
     },
+    { 
+      src: "https://static.wixstatic.com/media/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg", 
+      alt: "Galaxy Image",
+      type: "image" as const
+    },
+
   ];
 
  

@@ -66,6 +66,21 @@ const Observatory = () => {
       alt: "Galaxy Image",
       type: "image" as const
     },
+    { 
+      src: "/images/astro-image1.jpg", 
+      alt: "Astrophotography Capture",
+      type: "image" as const
+    },
+    { 
+      src: "/images/astro-image2.jpg", 
+      alt: "Deep Space Object",
+      type: "image" as const
+    },
+    { 
+      src: "/images/astro-image3.jpg", 
+      alt: "Celestial Photography",
+      type: "image" as const
+    },
   ];
 
  

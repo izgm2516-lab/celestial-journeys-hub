@@ -13,7 +13,8 @@ export const translations = {
         title: "Total Solar Eclipse",
         subtitle: "All Inclusive Experience",
         description: "Witness the celestial phenomenon of a lifetime at our exclusive estate in Spain. August 12, 2026 — where the sun meets the moon in perfect alignment.",
-        cta: "Reserve Your Experience"
+        cta: "Reserve Your Experience",
+        seeEstate: "See the estate"
       },
       countdown: {
         title: "Total Solar Eclipse",
@@ -130,7 +131,8 @@ export const translations = {
         title: "Eclipse Solar Total",
         subtitle: "Experiencia Todo Incluido",
         description: "Sé testigo del fenómeno celestial de tu vida en nuestra finca exclusiva en España. 12 de agosto de 2026 — donde el sol se encuentra con la luna en perfecta alineación.",
-        cta: "Reserva Tu Experiencia"
+        cta: "Reserva Tu Experiencia",
+        seeEstate: "Ver la finca"
       },
       countdown: {
         title: "Eclipse Solar Total",
@@ -247,7 +249,8 @@ export const translations = {
         title: "Éclipse Solaire Totale",
         subtitle: "Expérience Tout Inclus",
         description: "Soyez témoin du phénomène céleste de votre vie dans notre domaine exclusif en Espagne. 12 août 2026 — où le soleil rencontre la lune en parfait alignement.",
-        cta: "Réservez Votre Expérience"
+        cta: "Réservez Votre Expérience",
+        seeEstate: "Voir le domaine"
       },
       countdown: {
         title: "Éclipse Solaire Totale",

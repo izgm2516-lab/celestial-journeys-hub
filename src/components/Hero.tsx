@@ -73,7 +73,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                See the estate
+                {t("hero.seeEstate")}
               </a>
             </Button>
           </div>

@@ -39,7 +39,7 @@ const Footer = () => {
               <Youtube className="w-5 h-5" />
             </a>
             <a
-              href="mailto:carlos_espada@yahoo.com"
+              href="mailto:info@fincainvernalia.com"
               className="w-10 h-10 rounded-full bg-card border border-border/50 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors"
               aria-label="Email"
             >

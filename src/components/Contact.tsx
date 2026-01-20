@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             {/* Email */}
             <a
-              href="mailto:carlos_espada@yahoo.com"
+              href="mailto:info@fincainvernalia.com"
               className="group card-gradient rounded-xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300"
             >
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
               <h3 className="font-medium mb-1">{t("contact.email")}</h3>
               <p className="text-muted-foreground text-sm">
-                carlos_espada@yahoo.com
+                info@fincainvernalia.com
               </p>
             </a>
 
@@ -84,7 +84,7 @@ const Contact = () => {
               </div>
             </div>
             <Button variant="glow" size="xl" asChild>
-              <a href="mailto:carlos_espada@yahoo.com">{t("contact.reserveButton")}</a>
+              <a href="mailto:info@fincainvernalia.com">{t("contact.reserveButton")}</a>
             </Button>
           </div>
         </div>

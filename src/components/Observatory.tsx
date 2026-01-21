@@ -26,7 +26,7 @@ const Observatory = () => {
   const astroImages = [
     { 
       src: "https://static.wixstatic.com/media/322ca7_63165ca5876f4683b3c7f8b6e689b65d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_63165ca5876f4683b3c7f8b6e689b65d~mv2.jpg", 
-      alt: "Astrophotography Sample",
+      alt: "Pleiades Star Cluster (M45)",
       type: "image" as const
     },
     { 
@@ -43,47 +43,47 @@ const Observatory = () => {
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg", 
-      alt: "Nebula Capture",
+      alt: "Rosette Nebula",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_121a52ee951d44a1bda21f11887eb59d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_121a52ee951d44a1bda21f11887eb59d~mv2.jpg", 
-      alt: "Telescope Setup",
+      alt: "Cygnus Region Wide Field",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_c6551872607b4962aa508ab49b567a88~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-24%20at%2000_22_46_68ec8550.jpg", 
-      alt: "Deep Sky Object",
+      alt: "Horsehead and Flame Nebulae",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_8a4d8d70e96c43f2adc295bc5fd64a0e~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-24%20at%2000_22_46_7dafaa8a.jpg", 
-      alt: "Observatory Equipment",
+      alt: "North America Nebula (NGC 7000)",
       type: "image" as const
     },
     { 
       src: "/M42.jpg", 
-      alt: "Orion Homemade Picture",
+      alt: "Orion Nebula (M42)",
       type: "image" as const
     },
     { 
       src: "/images/astro-image1.jpg", 
-      alt: "Astrophotography Capture",
+      alt: "Heart Nebula (IC 1805)",
       type: "image" as const
     },
     { 
       src: "/images/astro-image2.jpg", 
-      alt: "Deep Space Object",
+      alt: "Andromeda Galaxy (M31)",
       type: "image" as const
     },
     { 
       src: "/images/astro-image3.jpg", 
-      alt: "Celestial Photography",
+      alt: "Lagoon Nebula (M8)",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg", 
-      alt: "Galaxy Image",
+      alt: "Soul Nebula (IC 1848)",
       type: "image" as const
     },
 

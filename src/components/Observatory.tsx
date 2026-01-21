@@ -26,7 +26,7 @@ const Observatory = () => {
   const astroImages = [
     { 
       src: "https://static.wixstatic.com/media/322ca7_63165ca5876f4683b3c7f8b6e689b65d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_63165ca5876f4683b3c7f8b6e689b65d~mv2.jpg", 
-      alt: "Pleiades Star Cluster (M45)",
+      alt: "Dark-sky quality map (SQM / Bortle)",
       type: "image" as const
     },
     { 
@@ -43,22 +43,22 @@ const Observatory = () => {
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_3c7f22c4579744568f27cf9cf79814db~mv2.jpg", 
-      alt: "Rosette Nebula",
+      alt: "Deep-sky nebula (bubble-like structure)",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_121a52ee951d44a1bda21f11887eb59d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_121a52ee951d44a1bda21f11887eb59d~mv2.jpg", 
-      alt: "Cygnus Region Wide Field",
+      alt: "Astrophotography rigs at the observatory",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_c6551872607b4962aa508ab49b567a88~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-24%20at%2000_22_46_68ec8550.jpg", 
-      alt: "Horsehead and Flame Nebulae",
+      alt: "Deep-sky nebula (blue core with orange dust)",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_8a4d8d70e96c43f2adc295bc5fd64a0e~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-24%20at%2000_22_46_7dafaa8a.jpg", 
-      alt: "North America Nebula (NGC 7000)",
+      alt: "Deep-sky nebula (blue emission region)",
       type: "image" as const
     },
     { 
@@ -68,22 +68,22 @@ const Observatory = () => {
     },
     { 
       src: "/images/astro-image1.jpg", 
-      alt: "Heart Nebula (IC 1805)",
+      alt: "Solar observing setup (telescope mount)",
       type: "image" as const
     },
     { 
       src: "/images/astro-image2.jpg", 
-      alt: "Andromeda Galaxy (M31)",
+      alt: "Sun close-up (solar limb and prominence)",
       type: "image" as const
     },
     { 
       src: "/images/astro-image3.jpg", 
-      alt: "Lagoon Nebula (M8)",
+      alt: "Full-disc Sun (solar detail)",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_ceca07714567481083342f49b9cf6d5d~mv2.jpg", 
-      alt: "Soul Nebula (IC 1848)",
+      alt: "Observatory telescope setup (daytime)",
       type: "image" as const
     },
 

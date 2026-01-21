@@ -11,44 +11,44 @@ const Accommodation = () => {
   const galleryImages = [
     { 
       src: "https://static.wixstatic.com/media/322ca7_f3c77018f7af44b0a4bcc35734dadcc8~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2001_21_03_ed87bdd8.jpg", 
-      alt: "Country Estate Exterior",
+      alt: "Stone Farmhouse Exterior with Garden",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_dacf6da994cf42d3a3c6b4fa3087543d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2002_15_40_5af13e7e.jpg", 
-      alt: "Rustic Interior",
+      alt: "Rustic Living Room with Wooden Beams",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_28e18295a9004112a4fff5a286b2334d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2006_05_40_71d80e98.jpg", 
-      alt: "Night Sky View",
+      alt: "Starry Night Sky Over the Estate",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_75387a2a4da04a0b8780de1600d4f238~mv2.png/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/322ca7_75387a2a4da04a0b8780de1600d4f238~mv2.png", 
-      alt: "Property Video Tour",
+      alt: "Estate Grounds Video Tour",
       type: "video" as const,
       videoUrl: "https://www.dropbox.com/scl/fi/khwu6g1xm22szo1x38vos/WhatsApp-Video-2025-10-23-at-06.01.02_49611678.mp4?rlkey=72i02vrch9km06qlojvhi6c42&st=5fcrq3yn&dl=0"
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_4910e04a4da944b6809ca526392392bc~mv2.png/v1/fill/w_600,h_400,al_c,q_85,enc_avif,quality_auto/322ca7_4910e04a4da944b6809ca526392392bc~mv2.png", 
-      alt: "Sunset Video",
+      alt: "Sunset Over the Valley",
       type: "video" as const,
       videoUrl: "https://www.dropbox.com/scl/fi/ek1y78dobwtk2afzp384w/WhatsApp-Video-2025-10-23-at-00.21.40_b37412fe.mp4?rlkey=k65trx8440id7evnd8wvljfw8&st=5cf0w8kp&dl=0"
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_c8fc21865ab747b38889764dc4758f72~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2022_40_56_200c89f4.jpg", 
-      alt: "Garden View",
+      alt: "Organic Vegetable Garden",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_89a3e1eb087d44e690d52159aee7722c~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2023_07_09_5122dc5f.jpg", 
-      alt: "Living Space",
+      alt: "Cozy Bedroom with Traditional Decor",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_96cec5a51b4349e490eb3fb1370e6e3f~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2023_15_47_0da425cf.jpg", 
-      alt: "Outdoor Dining Area",
+      alt: "Outdoor Terrace with Mountain Views",
       type: "image" as const
     },
   ];
@@ -56,22 +56,22 @@ const Accommodation = () => {
    const additionalImages = [
     { 
       src: "https://static.wixstatic.com/media/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg", 
-      alt: "Telescope Close-up",
+      alt: "Telescope and Mount Setup",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg", 
-      alt: "Observatory at Dusk",
+      alt: "Observatory Dome at Twilight",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg", 
-      alt: "Star Trail",
+      alt: "Star Trails Over the Farm",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg", 
-      alt: "Milky Way View",
+      alt: "Milky Way Core Rising",
       type: "image" as const
     },
   ];

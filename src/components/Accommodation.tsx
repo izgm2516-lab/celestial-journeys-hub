@@ -11,17 +11,17 @@ const Accommodation = () => {
   const galleryImages = [
     { 
       src: "https://static.wixstatic.com/media/322ca7_f3c77018f7af44b0a4bcc35734dadcc8~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2001_21_03_ed87bdd8.jpg", 
-      alt: "Stone Farmhouse Exterior with Garden",
+      alt: "2026 Eclipse Path Over Spain",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_dacf6da994cf42d3a3c6b4fa3087543d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2002_15_40_5af13e7e.jpg", 
-      alt: "Rustic Living Room with Wooden Beams",
+      alt: "Sunset Over the Farm",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_28e18295a9004112a4fff5a286b2334d~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2006_05_40_71d80e98.jpg", 
-      alt: "Starry Night Sky Over the Estate",
+      alt: "Farm Geese at Sunset",
       type: "image" as const
     },
     { 
@@ -38,17 +38,17 @@ const Accommodation = () => {
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_c8fc21865ab747b38889764dc4758f72~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2022_40_56_200c89f4.jpg", 
-      alt: "Organic Vegetable Garden",
+      alt: "Stone Farmhouse Exterior",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_89a3e1eb087d44e690d52159aee7722c~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2023_07_09_5122dc5f.jpg", 
-      alt: "Cozy Bedroom with Traditional Decor",
+      alt: "Organic Vegetable Garden",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_96cec5a51b4349e490eb3fb1370e6e3f~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/WhatsApp%20Image%202025-10-23%20at%2023_15_47_0da425cf.jpg", 
-      alt: "Outdoor Terrace with Mountain Views",
+      alt: "Living Room with Stone Walls",
       type: "image" as const
     },
   ];
@@ -56,22 +56,22 @@ const Accommodation = () => {
    const additionalImages = [
     { 
       src: "https://static.wixstatic.com/media/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_9031c9a5f7734fb1be095ac824aefd41~mv2.jpg", 
-      alt: "Telescope and Mount Setup",
+      alt: "Rustic Bedroom with Stone Walls",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_fbbe562b73c54da49f01ee6c39ae0659~mv2.jpg", 
-      alt: "Observatory Dome at Twilight",
+      alt: "Open Kitchen and Dining Area",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_f65c24256d3a4207b686370f4eb4be68~mv2.jpg", 
-      alt: "Star Trails Over the Farm",
+      alt: "Cozy Bedroom with Wooden Ceiling",
       type: "image" as const
     },
     { 
       src: "https://static.wixstatic.com/media/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/322ca7_5a005d4995ff46a2b41a0b68fc000906~mv2.jpg", 
-      alt: "Milky Way Core Rising",
+      alt: "Modern Bathroom with Shower",
       type: "image" as const
     },
   ];

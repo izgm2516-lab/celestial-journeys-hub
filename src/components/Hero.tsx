@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { ChevronDown, Calendar, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroEclipse from "@/assets/hero-eclipse.jpg";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://static.wixstatic.com/media/322ca7_1010363dcc4048c79a3d09286d784890~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_avif,quality_auto/Fondo%20Site%20web%202_edited.jpg"
+          src={heroEclipse}
           alt="Total Solar Eclipse with golden corona"
           className="w-full h-full object-cover"
         />

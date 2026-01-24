@@ -70,7 +70,7 @@ const Hero = () => {
             </Button>
             <Button variant="heroOutline" size="xl" className="min-w-[200px]" asChild>
               <a
-                href="https://youtu.be/E8e8iprNY7s"
+                href="https://youtu.be/qx06aiQIQpc?si=5YBHGzCgLkIbPGsv"
                 target="_blank"
                 rel="noopener noreferrer"
               >
